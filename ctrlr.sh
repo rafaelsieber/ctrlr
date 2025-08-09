@@ -28,7 +28,7 @@
 
 # Check if fzf is installed
 if ! command -v rofi >/dev/null 2>&1; then
-  echo "rofi not found. Please install fzf first."
+  echo "rofi not found. Please install rofi first."
   exit 1
 fi
 
