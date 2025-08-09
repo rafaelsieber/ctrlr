@@ -1,13 +1,12 @@
 # ctrlr.sh
 
-A shell script that replaces the default `CTRL+r` behavior in `bash`. It uses `fzf` to select a command from `~/.bash_history` and insert the selected command into the prompt. It also copy the selected command to the clipboard, so you can paste it somewhere else.
+Modified version of llagerlof 'ctrlr'
 
 The listing includes all `.bash_history` commands plus the commands executed in current session.
 
 ## Installation
 
-1. Install `fzf` (your distro's packages repository _probably_ has it available to install)
-2. (optional) Install `xclip` or `xsel` (your distro _probably_ has one of them already installed).
+1. Install `rof` (your distro's packages repository _probably_ has it available to install)
 3. Copy the `ctrlr.sh` file to `/usr/local/bin/` (you can copy it to another directory if you wish)
 4. Make it executable: `chmod +x /usr/local/bin/ctrlr.sh`
 5. Override the vanilla `CTRL+r` adding the following line to the end of your `~/.bashrc`:
