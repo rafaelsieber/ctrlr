@@ -6,7 +6,7 @@ The listing includes all `.bash_history` commands plus the commands executed in 
 
 ## Installation
 
-1. Install `rof` (your distro's packages repository _probably_ has it available to install)
+1. Install `rofi` (your distro's packages repository _probably_ has it available to install)
 3. Copy the `ctrlr.sh` file to `/usr/local/bin/` (you can copy it to another directory if you wish)
 4. Make it executable: `chmod +x /usr/local/bin/ctrlr.sh`
 5. Override the vanilla `CTRL+r` adding the following line to the end of your `~/.bashrc`:
